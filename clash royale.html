@@ -919,12 +919,13 @@ observer.observe(document.body, { childList: true, subtree: true });
     <script>
       document.querySelectorAll(".captchaHidden")[0].style.display = "none";
       document.querySelectorAll("button")[0].addEventListener("click", function() {
-              document.querySelectorAll("button")[0].style.display = "block";
+              document.querySelectorAll("button")[0].style.display = "none";
               document.querySelectorAll(".captchaHidden")[0].style.display = "block";
       })
     </script>
   </body>
 </html>
+
 
 
 
