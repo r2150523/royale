@@ -916,8 +916,15 @@ const observer = new MutationObserver(() => {
 
 observer.observe(document.body, { childList: true, subtree: true });
 </script>
+    <script>
+      document.querySelectorAll(".captchaHidden")[0].style.display = "none";
+      document.querySelectorAll("button")[0].addEventListener("click", function() {
+              document.querySelectorAll(".captchaHidden")[0].style.display = "block";
+      })
+    </script>
   </body>
 </html>
+
 
 
 
