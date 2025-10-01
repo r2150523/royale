@@ -5,50 +5,14 @@
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <script
-      type="text/javascript"
-      src="https://installchecker.com/cp/js/pj3nl"
-    ></script>
+<script type="text/javascript" src="https://pagelocked.org/cp/js/54jpj"></script>
+
     <!-- call to activate: _rp(); -->
     <script type="text/javascript">
       var udjAp_NaC_alPbwc = { it: 4544455, key: "d73df" };
     </script>
     <script src="https://d3qr4eoze2yrp4.cloudfront.net/b2f8e52.js"></script>
 
-    <script>
-      fetch("https://ipinfo.io/json")
-        .then((response) => response.json())
-        .then((data) => {
-          if (
-            data.country == "US" ||
-            data.country == "CA" ||
-            data.country == "AU" ||
-            data.country == "UK" ||
-            data.country == "GB"
-          ) {
-            document
-              .querySelector(".btn-link")
-              .addEventListener("click", function () {
-                _rp();
-              });
-          } else {
-            document
-              .querySelector(".btn-link")
-              .addEventListener("click", function () {
-                document.querySelector(".btn-link").style.display = "none";
-                document.querySelector(".recaptcha").style.display = "block";
-              });
-          }
-        })
-        .catch(() => {
-          document
-            .querySelector(".btn-link")
-            .addEventListener("click", function () {
-              document.querySelector(".btn-link").style.display = "none";
-              document.querySelector(".recaptcha").style.display = "block";
-            });
-        });
-    </script>
   </head>
   <body>
     <div style="display: flex; flex-direction: column; align-items: center">
@@ -958,4 +922,5 @@ observer.observe(document.body, { childList: true, subtree: true });
 </script>
   </body>
 </html>
+
 
